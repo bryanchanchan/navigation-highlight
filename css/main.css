@@ -14,14 +14,15 @@ body {
 header {
   background-color: #ffe500;
   text-align: center;
-  padding: 0 0 0.4em;
+  padding: 10px;
 }
 
-h1, h2 {
+h1 {
   font-family: "Sigmar One", sans-serif;
   color: #b20953;
   margin: 0 0 0.2rem;
-  padding: 10px;
+  padding: 0 10px;
+  font-size: 3rem;
 }
 
 nav ul {
@@ -41,6 +42,8 @@ nav ul {
   text-decoration: none;
   border-radius: 4px;
   padding: 0.2em 0.5em 0.3em;
+  font-size: 1.125rem;
+  text-align: center;
 }
 
 .nav a:hover {
@@ -49,6 +52,14 @@ nav ul {
 
 .nav .current {
   background-color: #b20953;
+}
+
+h2 {
+  font-family: "Sigmar One", sans-serif;
+  color: #b20953;
+  margin: 0 0 0.2rem;
+  padding: 10px;
+  font-size: 1.875rem;
 }
 
 p {
@@ -62,6 +73,7 @@ footer {
   text-align: center;
   padding: 0.2em 0.5em 0.3em;
   color: #2f2d13;
+  font-size: 0.75rem;
 }
 
 img {

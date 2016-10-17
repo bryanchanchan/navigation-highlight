@@ -10,6 +10,7 @@ html {
 body {
   margin: 0;
 }
+
 header {
   background-color: #ffe500;
   text-align: center;
@@ -53,12 +54,14 @@ nav ul {
 p {
   font-family: "Georgia", serif;
   padding: 0 10px;
+  color: #2f2d13;
 }
 
 footer {
   background: #ffe500;
   text-align: center;
   padding: 0.2em 0.5em 0.3em;
+  color: #2f2d13;
 }
 
 img {
